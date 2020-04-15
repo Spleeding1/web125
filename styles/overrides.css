@@ -1,0 +1,84 @@
+/* 
+	overides.css
+	Copyright (c) 2019 by Carl David Brubaker
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, B.S.Ed., M.S.
+*/
+
+/* 	Tag Selector Section......................................*/
+
+body {
+	background-color: LightSlateGray;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: .4px;
+}
+
+p a, ul a {
+	color: hsl(225, 97%, 55%);
+}
+
+th {
+	background-color: hsl(210, 7%, 72%);
+}
+
+tr:nth-child(odd) {
+	background-color: hsl(210, 7%, 85%);
+}
+
+tr:nth-child(even) {
+	background-color: hsl(210, 7%, 80%);
+}
+
+/*	Class Selector Section...................................*/
+
+.container-fluid {
+	background-color: hsl(210, 14%, 93%); /* LightSlateGray 85% */
+	color: hsl(210, 14%, 10%); /* LightSlateGray 10% */
+	width: 90%;
+}
+
+.img-left-align-100 {
+	display: block;
+	text-align: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+.table-foot {
+	background-color: hsl(210, 7%, 75%);
+}
+
+.tag-line {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: .25px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*	ID Selector Section......................................*/
+
+#unique {
+
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	video.htm
+	Copyright (c) 2019 by Carl David Brubaker
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+
+<head>
+	<title>Carl&#8217;s Auto Repair - How to Jack Up Your Car</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap v4.1.3 Latest compiled and minified CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<!-- jQuery 3.4.1.slim.min.js required for Bootstrap Navbar -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+	
+	<!-- Bootstrap v4.1.3 Complete JavaScript Bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+	
+	<!-- <link rel="stylesheet" href="../styles/template.css"> -->
+	<link rel="stylesheet" href="../styles/overrides.css">
+    <!-- <link rel="stylesheet" href="../styles/animation.css"> -->
+</head>
+
+<body>
+	<div class="d-flex justify-content-center" style="background: GoldenRod; padding: 10px; font-size:1.3rem">
+		<p>The content on this page was to fulfill a school project and is not a reflection of previous employers.</p>
+	</div>
+	<div class="container-fluid"> <!-- Corresponds to <main> tag in HTML5 -->
+	
+		<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h1>Carl&#8217;s Auto Repair</h1>
+				<p class="tag-line">Auto repair with integrity.</p>
+			</div>
+		</div> <!-- end row 1 -->
+	
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="../index.htm"
+			>Carl&#8217;s Auto Repair</a>
+			<button class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.htm" title="Home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="table.htm" title="Services">Services</a>
+					</li>
+					<!-- Things You Should Know nav dropdown menu -->
+					<li class="nav-item dropdown active">
+						<a aria-expanded="false"
+							aria-haspopup="true"
+							class="nav-link dropdown-toggle"
+							data-toggle="dropdown"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+						>Things You Should Know</a>
+						<!-- dropdown items -->
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item"
+								href="things-you-should-know.htm"
+								title="Things you should know about your car"
+							>Things You Should Know</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item"
+								href="olist.htm"
+								title="How to change a tire"
+							>How to Change a Tire</a>
+							<a class="dropdown-item active"
+								href="video.htm"
+								title="How to jack up your"
+							>How to Jack Up Your Car</a>
+							<a class="dropdown-item"
+								href="gallery.htm"
+								title="What's Under My Hood"
+							>What&#8217;s Under My Hood</a>
+							<a class="dropdown-item"
+								href="ulist.htm"
+								title="Why is the MIL on"
+							>Why is the MIL On?</a>
+						</div>
+					</li><!-- end Things You Should Know dropdown menu -->
+					<li class="nav-item">
+						<a class="nav-link" href="form.htm" title="contact us">Contact</a>
+					</li>
+				</ul>
+			</div><!-- end navbar collaspe -->
+		</nav>
+			
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				<h2>Floor Jack</h2>
+				<div class="videoWrapper">
+					<iframe width="560" height="315"
+						src="https://www.youtube.com/embed/df3nmx_LyGY"
+						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+				<p>If you bought yourself a floor jack and jack stands, this is a good guide to follow.</p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>In-Car Jack</h2>
+				<div class="videoWrapper">
+					<iframe width="560" height="315"
+						src="https://www.youtube.com/embed/YJpx2cy6kAg"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+				<p>The jack in your vehicle may look different depending on who made it, but this is a good reference.</p>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>What <em>Not</em> to Do!</h2>
+				<div class="videoWrapper">
+					<iframe width="560" height="315"
+						src="https://www.youtube.com/embed/D-3hm2ZGKmA"
+						frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+				<p>In case you <em>don&#8217;t</em> believe us when we say to find level ground before jacking your vehicle, <em>this could be you!</em></p>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+				
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h3>Carl&#8217;s Auto Repair</h3>
+				<p>
+					<a href="../index.htm" title="Home">Home</a> &#124;
+					<a href="table.htm" title="Services">Services</a> &#124;
+					<a href="things-you-should-know.htm" title="Things you should know about your car">Things&nbsp;You&nbsp;Should&nbsp;Know</a> &#124;
+					<a href="form.htm" title="contact us">Contact</a>
+				</p>
+				<p>Copyright &copy;2019 by Carl Brubaker &bull; All Rights Reserved</p>
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+</body>
+
+</html>

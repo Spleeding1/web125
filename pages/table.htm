@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	table.htm
+	Copyright (c) 2019 by Carl David Brubaker
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+
+<head>
+	<title>Carl&#8217;s Auto Repair - Services</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap v4.1.3 Latest compiled and minified CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- jQuery 3.4.1.slim.min.js required for Bootstrap Navbar -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap v4.1.3 Complete JavaScript Bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+	
+	<!-- <link rel="stylesheet" href="../styles/template.css"> -->
+	<link rel="stylesheet" href="../styles/overrides.css">
+    <!-- <link rel="stylesheet" href="../styles/animation.css"> -->
+</head>
+
+<body>
+	<div class="d-flex justify-content-center" style="background: GoldenRod; padding: 10px; font-size:1.3rem">
+		<p>The content on this page was to fulfill a school project and is not a reflection of previous employers.</p>
+	</div>
+	<div class="container-fluid"> <!-- Corresponds to <main> tag in HTML5 -->
+	
+		<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h1>Carl&#8217;s Auto Repair</h1>
+				<p class="tag-line">Auto repair with integrity.</p>
+			</div>
+		</div> <!-- end row 1 -->
+	
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="../index.htm"
+			>Carl&#8217;s Auto Repair</a>
+			<button class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.htm" title="Home">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="#" title="Services">Services</a>
+					</li>
+					<!-- Things You Should Know nav dropdown menu -->
+					<li class="nav-item dropdown">
+						<a aria-expanded="false"
+							aria-haspopup="true"
+							class="nav-link dropdown-toggle"
+							data-toggle="dropdown"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+						>Things You Should Know</a>
+						<!-- dropdown items -->
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item"
+								href="things-you-should-know.htm"
+								title="Things you should know about your car"
+							>Things You Should Know</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item"
+								href="olist.htm"
+								title="How to change a tire"
+							>How to Change a Tire</a>
+							<a class="dropdown-item"
+								href="video.htm"
+								title="How to jack up your"
+							>How to Jack Up Your Car</a>
+							<a class="dropdown-item"
+								href="gallery.htm"
+								title="What&#8217;s Under My Hood"
+							>What&#8217;s Under My Hood</a>
+							<a class="dropdown-item"
+								href="ulist.htm"
+								title="Why is the MIL on"
+							>Why Is the MIL On?</a>
+						</div>
+					</li><!-- end Things You Should Know dropdown menu -->
+					<li class="nav-item">
+						<a class="nav-link" href="form.htm" title="contact us">Contact</a>
+					</li>
+				</ul>
+			</div><!-- end navbar collaspe -->
+		</nav>
+			
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				<h2>What We Offer</h2>
+				<p><img src="../images/fluid_bottles.jpg" class="img-left-align-100" alt="Vehicle fluid bottles"></p>
+				<p>You probably see ads for oil changes and other services at different locations, all emphasizing their <em>low&nbsp;prices</em>. You might think you are getting a deal, but there are reasons why their price is that low. It might be an attempt to get you to their location so they can upsell other, overpriced services, or they might be using cheaper products that won&#8217;t hold up over time.</p>
+				<p>We aren&#8217;t going to pretend to have the lowest prices, because we don&#8217;t. What we do have is the  <strong>best&nbsp;value</strong>. Our products are top notch, and the service we provide is superb. When you bring your vehicle to us, you can be confident that we aren&#8217;t just trying to make an extra dollar. We want to see your vehicle last as long as possible. We pride ourselves on integrity, which means everybody wins.</p>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<h2>Prices</h2>
+				<div class="table-responsive">
+					<table class="table table-light">
+						<thead>
+							<tr>
+								<th scope="col">Service</th>
+								<th scope="col">Includes</th>
+								<th scope="col">Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Oil Change</td>
+								<td>Oil filter, full synthentic oil (up to 5 qts), top-off all fluids</td>
+								<td>$44.99</td>
+							</tr>
+							<tr>
+								<td>Tire Rotation</td>
+								<td>Rotate all tires and inspect brakes</td>
+								<td>$19.99</td>
+							</tr>
+							<tr>
+								<td>State Safety Inspection</td>
+								<td>Pass or fail</td>
+								<td>$34.95</td>
+							</tr>
+							<tr>
+								<td>State Emissions Inspection</td>
+								<td>Pass or fail (one free retest if it fails)</td>
+								<td>$52.95</td>
+							</tr>
+							<tr>
+								<td>Air Filter</td>
+								<td>Replace engine air filter</td>
+								<td>$34.95</td>
+							</tr>
+							<tr>
+								<td>Cabin Filter</td>
+								<td>Replace HVAC filter</td>
+								<td>$33.95</td>
+							</tr>
+							<tr>
+								<td>Coolant Service</td>
+								<td>Drain and fill cooling system</td>
+								<td>$57.99</td>
+							</tr>
+							<tr>
+								<td>Power Steering Service</td>
+								<td>Flush power steering system</td>
+								<td>49.99</td>
+							</tr>
+							<tr>
+								<td>Labor Rate</td>
+								<td>For all other services</td>
+								<td>74.99</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="3" class="table-foot"><i>All prices are subject to change</i></td>
+							</tr>
+						</tfoot>
+					</table>
+				</div> <!-- .table-responsive -->
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<h2>Oil Viscosity Matters</h2>
+				<p><img src="../images/sae_oil_label.jpg" class="img-left-align-100" alt="Oil viscosity label"></p>
+				<p>If you&#8217;ve ever walked into an auto parts store to the engine oil isle, you&#8217;ve probably seen a vast assortment of types of engine oil. You might wonder which one is best for your car, and does it really matter.</p>
+				<p>Well, it does. There are many parts in the engine that have only a few thousandths-of-an-inch clearance between them. There are also tiny passageways that oil flows through to activate and deactivate variable-valve timing. Using an oil that is too low of a viscosity means that the thin barrier of oil may not be strong enough to keep the metal pieces from rubbing together. To high, and the oil might not be thin enough to get into the tight places it needs to. Either way, this can cause running problems and or engine failure.</p>
+					<p><strong>Always be sure to check your owner&#8217;s manual for the correct specifications for your vehicle.</strong></p>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+				
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h3>Carl&#8217;s Auto Repair</h3>
+				<p>
+					<a href="../index.htm" title="Home">Home</a> &#124;
+					<a href="table.htm" title="Services">Services</a> &#124;
+					<a href="things-you-should-know.htm" title="Things you should know about your car">Things&nbsp;You&nbsp;Should&nbsp;Know</a> &#124;
+					<a href="form.htm" title="contact us">Contact</a>
+				</p>
+				<p>Copyright &copy;2019 by Carl Brubaker &bull; All Rights Reserved &bull; Photos: Brubaker, Carl. 2019. JPEG files.</p>
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+</body>
+
+</html>

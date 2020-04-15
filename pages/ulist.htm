@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+	ulist.htm
+	Copyright (c) 2019 by Carl David Brubaker
+	All Rights Reserved
+	
+	A website assignment using Bootstrap 4.1.3
+	for course WEB125, HTML & CSS, at
+	HACC - Central Pennsylvania's Community College
+	Professor Carl R. Petersheim, M.S.
+-->
+
+<head>
+	<title>Carl&#8217;s Auto Repair - Why Is the MIL On&#63;</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap v4.1.3 Latest compiled and minified CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- jQuery 3.4.1.slim.min.js required for Bootstrap Navbar -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+	<!-- Bootstrap v4.1.3 Complete JavaScript Bundle -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+	
+	<!-- <link rel="stylesheet" href="../styles/template.css"> -->
+	<link rel="stylesheet" href="../styles/overrides.css">
+    <!-- <link rel="stylesheet" href="../styles/animation.css"> -->
+</head>
+
+<body>
+	<div class="d-flex justify-content-center" style="background: GoldenRod; padding: 10px; font-size:1.3rem">
+		<p>The content on this page was to fulfill a school project and is not a reflection of previous employers.</p>
+	</div>
+	<div class="container-fluid"> <!-- Corresponds to <main> tag in HTML5 -->
+	
+		<div class="row"> <!-- row 1, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h1>Carl&#8217;s Auto Repair</h1>
+				<p class="tag-line">Auto repair with integrity.</p>
+			</div>
+		</div> <!-- end row 1 -->
+	
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="../index.htm"
+			>Carl&#8217;s Auto Repair</a>
+			<button class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.htm" title="Home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="table.htm" title="Services">Services</a>
+					</li>
+					<!-- Things You Should Know nav dropdown menu -->
+					<li class="nav-item dropdown active">
+						<a aria-expanded="false"
+							aria-haspopup="true"
+							class="nav-link dropdown-toggle"
+							data-toggle="dropdown"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+						>Things You Should Know</a>
+						<!-- dropdown items -->
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item"
+								href="things-you-should-know.htm"
+								title="Things you should know about your car"
+							>Things You Should Know</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item"
+								href="olist.htm"
+								title="How to change a tire"
+							>How to Change a Tire</a>
+							<a class="dropdown-item"
+								href="video.htm"
+								title="How to jack up your"
+							>How to Jack Up Your Car</a>
+							<a class="dropdown-item"
+								href="gallery.htm"
+								title="What's Under My Hood"
+							>What&#8217;s Under My Hood</a>
+							<a class="dropdown-item active"
+								href="#"
+								title="Why is the MIL on"
+							>Why Is the MIL On?</a>
+						</div>
+					</li><!-- end Things You Should Know dropdown menu -->
+					<li class="nav-item">
+						<a class="nav-link" href="form.htm" title="contact us">Contact</a>
+					</li>
+				</ul>
+			</div><!-- end navbar collaspe -->
+		</nav>
+	
+		<div class="row"> <!-- row 2, 3x4 cols wide, like HMTL5 section -->
+			<div class="col-sm-4"> <!-- left column, like HTML5 article -->
+				<article>
+					<h2>What Is That&#63;</h2>
+					<p><img src="../images/mil_illuminated.jpg" class="img-left-align-100" alt="MIL illuminated in gauges"></p>
+					<p>At some point and time you have probably seen the image above. Usually referred to as the <em>Check Engine Light</em>, its technical name is the <em>Malfunction Indicator Light</em>, or MIL.</p>
+					<p>Different people will deal with it in different ways. If no noticeable running issue is felt, some might ignore it, or if they don&#8217;t want to look at it, put a piece of tape over it. Others will wait until the next service to investigate, or schedule an appointment immediately.</p>
+					<p>Depending where you live in the state of Pennsylvania, you will have to repair the problem to pass the annual emissions test. Having the MIL illuminated during testing will fail in any county where the On-Board Diagnostic 2&#40;OBD-II&#41; test is administered. There are 42 counties in the state that have a visual inspection performed with the annual safety inspection instead of an OBD-II test. Having the MIL illuminated is irrelevant for this type of inspection. It also does not matter in an OBD-II inspection county if the vehicle was driven less than 5,000 miles in the previous 12 months, as an exemption sticker will be issued.</p>
+					<p>If you don&#8217;t want to pay for diagnostic, you can stop at an auto parts store where they will read the diagnostic trouble code for free. Just beware that they might not have a solution, or the <em>correct</em> one &#40;you get what you pay for&#41;. It should be investigated and resolved to keep your vehicle in top shape.</p>
+				</article>
+			</div> <!-- end left column -->
+			<div class="col-sm-4"> <!-- middle column, like HTML5 article -->
+				<article>
+					<h2>Problems that Will Light the MIL</h2>
+					<ul type="disc">
+						<li>Spark Plug</li>
+						<li>Fuel Injector</li>
+						<li>Oxygen Sensor</li>
+						<li>Low Oil Pressure</li>
+						<li>Vacuum Leak</li>
+						<li>Incorrect Valve Adjustment</li>
+						<li>Low Battery Voltage</li>
+						<li>DTC stored in another control module
+							<ul type="circle">
+								<li>Electric Power Steering</li>
+								<li>Anti-Lock Braking System</li>
+								<li>Safety Restraint System</li>
+								<li>All Wheel Drive System</li>
+							</ul>
+						</li>
+					</ul>
+				</article>
+			</div> <!-- end middle column -->
+			<div class="col-sm-4"> <!-- right column, like HTML5 article -->
+				<article>
+					<h2>When Is the MIL On&#63;</h2>
+					<p><img src="../images/ecm_connectors.jpg" class="img-left-align-100" alt="ECM Connectors"></p>
+					<p>There are different reasons why the MIL &#40;Malfunction Indicator Light&#41; illuminates, but the root cause is that a Diagnostic Trouble Code &#40;DTC&#41; has set in the Engine Control Module &#40;ECM, sometimes called Powertrain Control Module, or PCM&#41;. A DTC is set when a control module detects an error.
+					</p>
+					<p>There are three different classes of errors. The first class is a 2&#45;trip error. If a problem is detected, it will store a temporary DTC but will not illuminate the MIL. If the same error occurs a second time, a permanent DTC will be stored and the MIL will illuminate.</p>
+					<p>The second is a 1&#45;trip error. Just like it sounds, the first time the error occurs the MIL will illuminate.</p>
+					<p>The third is an error indicating <em>damage to the catalytic converter</em> could occur. Instead of the MIL just illuminating, it will flash. It is best to pull over and turn the vehicle off. Catalytic converters are <strong>expensive</strong>, and you probably don&#8217;t want to pay for one if you don&#8217;t have to.</p>
+					<p>Most control modules communicate with each other in vehicles today. If one sets a DTC, they all might. It is a redundency. If one module dies, you can still get information as to what is wrong.</p>
+				</article>
+			</div> <!-- end right column -->
+		</div> <!-- end row 2 -->
+	
+		<div class="row"> <!-- row 3, 1x12 cols wide, like header in HTML5 --> 
+			<div class="col-sm-12">
+				<h3>Carl&#8217;s Auto Repair</h3>
+				<p>
+					<a href="../index.htm" title="Home">Home</a> &#124;
+					<a href="table.htm" title="Services">Services</a> &#124;
+					<a href="things-you-should-know.htm" title="Things you should know about your car">Things&nbsp;You&nbsp;Should&nbsp;Know</a> &#124;
+					<a href="form.htm" title="contact us">Contact</a>
+				</p>
+				<p>Copyright &copy;2019 by Carl Brubaker &bull; All Rights Reserved &bull; Photos: Brubaker, Carl. 2019. JPEG files</p>
+			</div>
+		</div> <!-- end row 3 -->
+		
+	</div> <!-- end container-fluid -->
+</body>
+
+</html>
